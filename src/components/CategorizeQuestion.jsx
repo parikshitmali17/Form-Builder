@@ -1663,11 +1663,11 @@ const ItemType = {
 };
 
 const CategorizeQuestion = () => {
-  const [questionText, setQuestionText] = useState("Categorize the Options");
+  const [questionText, setQuestionText] = useState("Click to add Question Here");
   const [categories, setCategories] = useState([
-    { id: 1, name: "Category 1", items: [] },
-    { id: 2, name: "Category 2", items: [] },
-    { id: 3, name: "Category 3", items: [] },
+    { id: 1, name: "Category 1 (Edit)", items: [] },
+    { id: 2, name: "Category 2 (Edit)", items: [] },
+    { id: 3, name: "Category 3 (Click To Edit)", items: [] },
   ]);
 
   const [options, setOptions] = useState([
@@ -1743,7 +1743,7 @@ const CategorizeQuestion = () => {
 
   <div className="options-and-categories">
     <div className="options">
-      <h4>Options</h4>
+      <h4>Drag options to Category</h4>
       {options.map((option) => (
         <DraggableOption
           key={option.id}

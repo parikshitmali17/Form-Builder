@@ -289,10 +289,10 @@ button[type="submit"]:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.question-text {
+/* .question-text {
   margin-bottom: 20px;
   font-size: 18px;
-}
+} */
 
 .blank {
   text-decoration: underline;
@@ -570,4 +570,115 @@ button.delete:hover {
   flex-direction: column;
   align-items: center;
   min-width: 150px;
+}
+
+
+.cloze-question {
+  font-family: Arial, sans-serif;
+}
+
+.question-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.5;
+  flex-grow: 1; /* Ensures the text takes available space */
+}
+
+.underline-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+  padding: 5px 10px;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  margin-left: 10px; /* Adds spacing between text and button */
+}
+
+.underline-button:hover {
+  color: #0056b3;
+}
+
+.cloze-question {
+  font-family: Arial, sans-serif;
+}
+
+.question-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.5;
+  flex-grow: 1; /* Ensures the text takes available space */
+}
+
+.underline-button {
+  background-color: transparent;
+  border: 1px solid #007bff; /* Adds a small border */
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+  padding: 5px 10px;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  margin-left: 10px; /* Adds spacing between text and button */
+  border-radius: 4px; /* Optional: rounds the button corners */
+}
+
+.underline-button:hover {
+  /* Removed hover color change effect */
+  color: #007bff; /* Keeps the text color same on hover */
+  border: 1px solid #007bff; /* Keeps the border the same on hover */
+}
+
+
+
+.cloze-question {
+  font-family: Arial, sans-serif;
+}
+
+.add-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-option input {
+  font-size: 14px;
+  padding: 10px 15px; 
+  width: 200px; /* Adjust width as necessary */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-option button {
+  font-size: 12px; /* Makes the button smaller */
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-option button:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
 }
