@@ -682,3 +682,47 @@ button.delete:hover {
 .option {
   margin-bottom: 10px;
 }
+
+
+/* CSS for setting a dark background color */
+body {
+  background-color: #212529;
+  color: #ffffff; /* Optional: Makes the text color white for better contrast */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  font-family: Arial, sans-serif; /* Optional: Sets a default font style */
+}
+
+
+.navbar {
+  background-color: #121212 !important; /* Sets the navbar background color */
+}
+
+.navbar .nav-link {
+  color: #ffffff !important; /* Ensures the links are readable on the dark background */
+}
+
+.navbar .nav-link:hover {
+  color: #dddddd !important; /* Adds a subtle hover effect for the links */
+}
+
+.navbar-brand {
+  color: #ffffff !important; /* Sets the brand color to white for readability */
+}
+
+.navbar-toggler {
+  border-color: #ffffff !important; /* Makes the toggler border visible on dark background */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  /* Customizes the toggler icon to be white */
+}
+
+
+.sidebar {
+  width: 280px;
+  min-height: 100vh; /* Ensures the sidebar covers the full height */
+  background-color: #f8f9fa; /* Customize the background color if needed */
+  border-right: 1px solid #dee2e6; /* Optional: Adds a subtle border */
+}
