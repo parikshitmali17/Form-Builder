@@ -208,7 +208,7 @@ function App() {
       )}
        
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </DndProvider>
    
   );
