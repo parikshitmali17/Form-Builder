@@ -761,3 +761,8 @@ footer a:hover {
 
 
 
+
+.question-text {
+  color: black;
+  font-weight: normal;
+}
