@@ -768,17 +768,21 @@ footer a:hover {
 }
 
 
-/* #root > div > div > div > div:nth-child(4) > div:nth-child(2) > button:nth-child(2){
-  width: 350px;
-}
-
-#root > div > div > div > div:nth-child(3) > div:nth-child(2) > button:nth-child(2){
-  width: 350px;
-} */
 
 
-/* Styling for the "Add Sub Question" and "Delete Question" buttons */
+
 .comprehension-question button {
   width: 370px; /* Set te width to 300px */
   display: inline-block; 
 }
+
+
+
+.subQuestion{
+  background-color: #198754;
+}
+
+.deleteQuestion{
+  background-color: #dc3545;
+}
+

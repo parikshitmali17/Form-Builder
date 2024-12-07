@@ -89,8 +89,8 @@ const ComprehensionQuestion = ({
           </div>
         ))}
 
-        <button onClick={handleAddSubQuestion}>Add Sub Question</button>
-        <button onClick={deleteQuestion}>Delete Question</button>
+        <button className="subQuestion" onClick={handleAddSubQuestion}>Add Sub Question</button>
+        <button  className="deleteQuestion" onClick={deleteQuestion}>Delete Question</button>
       </div>
     </div>
   );
