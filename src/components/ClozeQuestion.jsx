@@ -79,7 +79,7 @@ const ClozeQuestion = ({ question, updateQuestion, deleteQuestion }) => {
         ))}
       </div>
 
-      <button onClick={() => deleteQuestion(question.id)}>Delete Question</button>
+      <button id="deleteQ" onClick={() => deleteQuestion(question.id)}>Delete Question</button>
     </div>
   );
 };

@@ -660,20 +660,7 @@ button.delete:hover {
   border-radius: 4px;
 }
 
-.add-option button {
-  font-size: 12px; /* Makes the button smaller */
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: 1px solid #007bff;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-.add-option button:hover {
-  background-color: #0056b3;
-  border: 1px solid #0056b3;
-}
 
 .options {
   margin-top: 20px;
@@ -783,6 +770,61 @@ footer a:hover {
 }
 
 .deleteQuestion{
+  background-color: #dc3545;
+}
+
+
+/* CSS for aligning "Add Option" and "Delete Question" buttons with specified width */
+.cloze-question .add-option,
+.cloze-question > button {
+  width: 370px; /* Set the width for both buttons */
+  margin: 10px auto; /* Center align with vertical spacing */
+  display: block; /* Ensure both elements are block-level to stack properly */
+  text-align: center; /* Center-align text inside buttons */
+}
+
+.cloze-question .add-option {
+  margin-bottom: 20px; /* Add extra space below "Add Option" */
+}
+
+.cloze-question .add-option input,
+.cloze-question .add-option button {
+  width: 100%; /* Make the input and button within the add-option container full width */
+}
+
+.cloze-question > button {
+  background-color: #007bff; /* Optional: Background color for "Delete Question" button */
+  color: white; /* Optional: Text color */
+  border: none; /* Optional: Remove border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 10px; /* Add padding for better usability */
+  font-size: 16px; /* Adjust font size for readability */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.cloze-question > button:hover {
+  background-color: #0056b3; /* Optional: Hover effect for "Delete Question" */
+}
+
+
+.options .option label {
+  color: black; /* Sets the text color of added options to black */
+}
+
+
+
+
+#root > div > div > div > div.cloze-question > div.add-option > button{
+  height: 45px;
+  width: 350px;
+  
+  background-color: #198754;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+}
+
+#deleteQ{
   background-color: #dc3545;
 }
 
