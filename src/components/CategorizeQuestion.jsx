@@ -89,7 +89,8 @@ const CategorizeQuestion = () => {
 
   <div className="options-and-categories">
     <div className="options">
-      <h4>Drag options to Category</h4>
+    
+      <p  style={{ color: 'black' }}>Drag options to Category</p>
       {options.map((option) => (
         <DraggableOption
           key={option.id}
