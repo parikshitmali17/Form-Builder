@@ -11,6 +11,7 @@ const HeaderImage = ({ headerImage, setHeaderImage }) => {
 
   return (
     <div className="header-image">
+      <p style={{ color: "black" }}>Select Image for Header</p>
       <input type="file" onChange={handleImageUpload} />
       {headerImage && <img src={headerImage} alt="Header" />}
     </div>

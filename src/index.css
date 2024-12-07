@@ -745,3 +745,19 @@ footer a {
 footer a:hover {
   color: #ffffff; /* Changes link color on hover for better visibility */
 }
+
+
+
+
+.add-question {
+  position: sticky; /* Makes the container stick in place */
+  top: 10px; /* Adjust as needed to set the distance from the top */
+  z-index: 1000; /* Ensures it stays above other elements */
+  background-color: #fff; /* Optional: Sets background to prevent overlap issues */
+  padding: 10px; /* Optional: Adds some spacing for better appearance */
+  border: 1px solid #ddd; /* Optional: Adds a subtle border */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for emphasis */
+}
+
+
+
