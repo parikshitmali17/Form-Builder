@@ -855,3 +855,20 @@ footer a:hover {
 .cloze-question .option {
   margin-bottom: 8px; /* Optional: Adds space between options */
 }
+
+
+.comprehension-question .options {
+  display: flex;
+  flex-direction: column; /* Aligns options vertically */
+  align-items: flex-start; /* Aligns options to the left */
+}
+
+.comprehension-question .option {
+  display: flex;
+  align-items: center; /* Aligns the radio button and text input in a row */
+  margin-bottom: 8px; /* Adds space between each option */
+}
+
+.comprehension-question .option input[type="text"] {
+  margin-left: 8px; /* Adds space between the radio button and the text input */
+}

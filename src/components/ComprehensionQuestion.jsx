@@ -62,7 +62,7 @@ const ComprehensionQuestion = ({
               }
               className="question-text"
             />
-            <div className="options">
+            <div id="ComOp" className="options">
               {subQuestion.options.map((option, index) => (
                 <div key={index} className="option">
                   <input
