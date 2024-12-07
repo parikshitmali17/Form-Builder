@@ -64,7 +64,7 @@ const ClozeQuestion = ({ question, updateQuestion, deleteQuestion }) => {
       </div>
 
       <div className="options">
-        <h5 style={{ color: 'black' }}>Choose Correct Options:</h5>
+        <h6 style={{ color: 'black' }}>Choose Correct Options:</h6>
         {options.map((option) => (
           <div key={option.id} className="option">
             <label>
